@@ -2,7 +2,7 @@
 NAME="flask-formvalidator"
 DEV_ENV="-e FLASK_APP=main -e FLASK_DEBUG=1 -e FLASK_ENVIRONMENT=development"
 DEV_CMD="flask run --host=0.0.0.0 --port=80"
-RUN_ENV="-e STATIC_PATH=/app/flask-formvalidator/static"
+RUN_ENV="-e STATIC_PATH=/app/static"
 PORTS="8000:80"
 VMAP="$(pwd)/app:/app"
 IMAGE="tiangolo/uwsgi-nginx-flask:python3.6-alpine3.7"
