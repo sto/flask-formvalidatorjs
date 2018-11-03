@@ -1,5 +1,5 @@
 #!/bin/sh
-NAME="flask-formvalidator"
+NAME="flask-formvalidatorjs"
 DEV_ENV="-e FLASK_APP=main -e FLASK_DEBUG=1 -e FLASK_ENVIRONMENT=development"
 DEV_CMD="flask run --host=0.0.0.0 --port=80"
 RUN_ENV="-e STATIC_PATH=/app/static"
