@@ -13,7 +13,7 @@ dev)
            "$IMAGE" $DEV_CMD
 ;;
 logs)
-    docker logs -f "$NAME"
+    docker $@ "$NAME"
 ;;
 reload)
     docker exec "$NAME" touch /run/uwsgi.reload
